@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LOAD SPIN</title>
+    </head>
+    <style>
+        .spinner{
+               height: 100px;
+               width: 100px;
+               border-radius: 100%;
+               position: absolute;
+               left: 30%; top: 20%;
+               border:30px solid rgb(228, 13, 13);
+               border-top-color: transparent;
+               animation: spin 2s infinite linear;
+               margin-left: 150px;
+               margin-top: 140PX;
+        }
+
+        @keyframes spin{
+            0%{transform: rotate(0deg);}
+            100%{transform: rotate(360deg);}
+         }
+
+         h1{
+            color:rgb(228, 13, 13);
+            padding-left: 400px;
+            font-size: 80px;
+            margin-top: 90px;
+         }
+    </style>
+</html>
+<body style="background-color: rgb(233, 221, 221);">
+    <h1>LOAD SPIN</h1>
+    <div class="spinner"></div>
+</body>
